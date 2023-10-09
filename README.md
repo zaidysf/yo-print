@@ -50,7 +50,7 @@ git clone git@github.com:zaidysf/yo-print.git
 - Enter yo-print directory
 
 ```
-cd yo=print
+cd yo-print
 ```
 
 - Install laravel sail
@@ -82,21 +82,21 @@ ABLY_KEY=xxxxxxxxxxxxxxxxxxxx
 - Migrate and seed database
 
 ```
-./vendor/bin/sailsail artisan migrate:fresh --seed
+./vendor/bin/sail artisan migrate:fresh --seed
 ```
 
 **[In another new terminal]** 
 - Start the Vite development server to automatically recompile our CSS and refresh the browser when we make changes to our Blade templates
 
 ```
-./vendor/bin/sailsail npm run dev
+./vendor/bin/sail npm run dev
 ```
 
 **[In another new terminal]** 
 - Start Horizon server
 
 ```
-./vendor/bin/sailsail artisan horizon
+./vendor/bin/sail artisan horizon
 ```
 
 Finally, we can access this project by visiting below URLs
@@ -107,4 +107,6 @@ Finally, we can access this project by visiting below URLs
 - You have to self register to the application by clicking "**Register**" button on the right top corner page
 - or by visiting the following URL : http://localhost/register
 - You may use any dummy emails to register/login since the email verification feature is inactive
+
+- For Yo-Print Management, Please kindly contact me by email if you want to use my Ably API Key
 
